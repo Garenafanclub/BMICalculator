@@ -39,15 +39,15 @@ public class MainActivity extends AppCompatActivity {
 
                     double bmi = wt / (totalM * totalM);
                     if (bmi > 25) {
-                        txt_Result.setText("You're OverWeight");
-                        llMain.setBackgroundColor(getResources().getColor(R.color.colorOW));
+                        txt_Result.setText(bmi +" " +  "You're OverWeight");
+                        llMain.setBackgroundResource(R.color.colorOW);
                     } else if (bmi < 18.5) {
-                        txt_Result.setText("You're UnderWeight");
-                        llMain.setBackgroundColor(getResources().getColor(R.color.colorUW));
+                        txt_Result.setText(bmi +" "+ "You're UnderWeight");
+                        llMain.setBackgroundResource(R.color.colorUW);
                     } else {
-                        txt_Result.setText("You're Healthy");
-                        llMain.setBackgroundColor(getResources().getColor(R.color.colorH));
+                        txt_Result.setText(bmi +" " + "You're Healthy");
+                        llMain.setBackgroundResource(R.color.colorH);
                     }
-        });   // Anonymous Class.  // lambda expression.
+        });
     }
 }

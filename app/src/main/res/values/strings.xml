@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">BMICalculator</string>
-    <string name="Weight">Enter your Weight</string>
+    <string name="Weight">Enter your Weight(in Kg)</string>
     <string name="Height_ft">Enter your Height(in ft)</string>
     <string name="Height_in">Enter your Height(in In)</string>
     <string name="BMICal">Calculate BMI</string>
     <string name="Final_Result">Result</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

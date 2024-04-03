@@ -14,39 +14,49 @@
         android:id="@+id/edit_Weight"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/Weight"
-        android:inputType="number" />
+        android:inputType="number"
+        android:textAlignment="center"
+        tools:ignore="TextSizeCheck" />
 
     <EditText
         android:id="@+id/edit_HeightFT"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/Height_ft"
         android:inputType="number"
-        android:hint="@string/Height_ft" />
+        android:textAlignment="center"
+        tools:ignore="TextSizeCheck" />
 
     <EditText
         android:id="@+id/edit_HeightIN"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
+        android:autofillHints=""
         android:ems="10"
+        android:hint="@string/Height_in"
         android:inputType="number"
-        android:hint="@string/Height_in"/>
-    
+        android:textAlignment="center"
+        tools:ignore="TextSizeCheck" />
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_Cal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="@string/BMICal"/>
+        android:layout_marginTop="13dp"
+        android:text="@string/BMICal"
+        tools:ignore="TextSizeCheck" />
     
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txt_Result"
         android:text="@string/Final_Result"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="14dp"
         android:textSize="21sp"
         android:textStyle="bold"/>
 
